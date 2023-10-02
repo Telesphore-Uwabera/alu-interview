@@ -3,6 +3,7 @@
 0-rain
 """
 
+
 def rain(walls):
     """
     Calculate how many square units of water will be retained between walls.
