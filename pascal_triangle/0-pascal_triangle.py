@@ -28,3 +28,34 @@ def pascal_triangle(n):
 
     return triangle
 
+def print_triangle(triangle):
+    """
+    Print Pascal's triangle.
+
+    Args:
+        triangle (list): A list of lists representing Pascal's triangle.
+
+    Prints each row of Pascal's triangle.
+    """
+    for row in triangle:
+        print("[{}]".format(",".join([str(x) for x in row]))
+
+if __name__ == "__main__":
+    # Correct output for n = 5
+    print_triangle(pascal_triangle(5))
+
+    # Correct output for n = 1
+    print_triangle(pascal_triangle(1))
+
+    # Correct output for n = 0
+    print_triangle(pascal_triangle(0))
+
+    # Correct output for n = 10
+    print_triangle(pascal_triangle(10))
+
+    # Correct output for n = 100
+    # Note: Printing a large Pascal's triangle may result in a very long output.
+    # It's not practical to print the entire triangle for such a large value of n.
+    # You can verify the correctness of the result in other ways.
+    print_triangle(pascal_triangle(100))
+
