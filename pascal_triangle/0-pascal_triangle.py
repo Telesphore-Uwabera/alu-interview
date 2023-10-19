@@ -1,6 +1,17 @@
 #!/usr/bin/python3
 
 def pascal_triangle(n):
+    """
+    Generate Pascal's triangle up to a specified height.
+
+    Args:
+        n (int): The height of the Pascal's triangle.
+
+    Returns:
+        list: A list of lists representing Pascal's triangle.
+
+    If n is less than or equal to 0, an empty list is returned.
+    """
     if n <= 0:
         return []
 
@@ -16,3 +27,4 @@ def pascal_triangle(n):
         triangle.append(row)
 
     return triangle
+
