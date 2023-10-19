@@ -3,11 +3,6 @@
 def pascal_triangle(n):
     """
     Generate Pascal's Triangle of depth n as a list of lists.
-
-    :param n: The depth of Pascal's Triangle.
-    :type n: int
-    :return: A list of lists representing Pascal's Triangle.
-    :rtype: list of lists of integers
     """
     if n <= 0:
         return []
