@@ -1,13 +1,16 @@
-#Pascal's Triangle
+# Pascal's Triangle
+
 This Python program generates Pascal's Triangle up to a specified height and returns it as a list of lists of integers. Pascal's Triangle is a mathematical construct where each number in the triangle is the sum of the two numbers directly above it.
 
-Usage
-Make sure you have Python installed on your system.
+## Usage
 
-Clone the repository or download the 0-pascal_triangle.py file.
+1. Make sure you have Python installed on your system.
 
-Run the 0-main.py script to see Pascal's Triangle for a given height. You can adjust the height by changing the input argument in the script.
+2. Clone the repository or download the `0-pascal_triangle.py` file.
 
+3. Run the `0-main.py` script to see Pascal's Triangle for a given height. You can adjust the height by changing the input argument in the script.
+
+```bash
 $ python3 0-main.py
 Function
 python
